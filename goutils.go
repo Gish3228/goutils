@@ -1,6 +1,6 @@
 package goutils
 
-func Contains(a []string, x string) bool {
+func InString(a []string, x string) bool {
 	for _, el := range a {
 		if el == x {
 			return true
@@ -9,7 +9,7 @@ func Contains(a []string, x string) bool {
 	return false
 }
 
-func ContainsInt(a []int, x int) bool {
+func InInt(a []int, x int) bool {
 	for _, el := range a {
 		if el == x {
 			return true
