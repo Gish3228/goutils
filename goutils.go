@@ -9,6 +9,8 @@ func InString(a []string, x string) bool {
 	return false
 }
 
+// heeewed
+
 func InInt(a []int, x int) bool {
 	for _, el := range a {
 		if el == x {
